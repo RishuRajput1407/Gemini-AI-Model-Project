@@ -14,7 +14,7 @@ async function generateInfo() {
     //fatch response
     const body = {contents: [{ parts: [{ text: text }] }] };
 
-    const response = await fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyA3SyYVEJf19-tkHl2gU0chYKH_aYE13Xo',{
+    const response = await fetch('https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key=AIzaSyCl-5XQFhEgx80H1uAlASEdCQ1DyCbCIUg',{
             method: "POST",
             headers:{
                 "content-type": "application/json",
